@@ -137,14 +137,14 @@
 }
 
 .header-name a{
-  font-size: 16px;
+  font-size: small;
   color: #fafafa;
   text-decoration: none;
 }
 
 .create-room a{
   text-decoration: none;
-  font-size: small;
+  font-size: x-small;
   color: #fafafa;
   border: 3px outset #fafafa;
   padding: 14px;
@@ -164,4 +164,19 @@
 .room-name a{
   text-decoration: none;
   color: #fafafa;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+input:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+span:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
