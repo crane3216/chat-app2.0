@@ -165,3 +165,18 @@
   text-decoration: none;
   color: #fafafa;
 }
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+input:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+span:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
