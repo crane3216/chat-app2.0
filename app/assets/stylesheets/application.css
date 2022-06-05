@@ -137,14 +137,14 @@
 }
 
 .header-name a{
-  font-size: 16px;
+  font-size: small;
   color: #fafafa;
   text-decoration: none;
 }
 
 .create-room a{
   text-decoration: none;
-  font-size: small;
+  font-size: x-small;
   color: #fafafa;
   border: 3px outset #fafafa;
   padding: 14px;
