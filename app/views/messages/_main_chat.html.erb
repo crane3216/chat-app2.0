@@ -45,13 +45,13 @@
   </div>
 </div>
 
-<div class = "form">
+<%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
   <div class = "form-input">
-    <input class = "form-message" placeholder = "書いちゃいなよ★">
+    <%= f.text_field :contet, class: 'form-message', placeholder: '書いちゃいなよ★' %>
     <label class = "form-image">
       <span class = "image-file">ガゾウ</span>
-      <input type = "file" class = "hidden">
+      <%= f.file_field :image, class: 'hidden' %>
     </label>
   </div>
-  <input class = "form-submit" type = "submit" value = "送る言葉">
-</div>
+  <%= f.submit '送り人', class: 'form_submit' %>
+<% end %>
